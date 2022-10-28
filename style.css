@@ -2,6 +2,7 @@
     width: 100%;
     /* height: 100%; */
     border: 2px solid rgb(228, 50, 50);
+    background: #fafcff 0% 0% no-repeat padding-box;
 }
 
 .box{
@@ -51,7 +52,32 @@ hr{
 }
 
 /* Second page */
+.secondPage h1{
+    /* align-items: center; */
+    text-align: center;
+    margin: 10%;
+}
+.spageBox{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5% 0 5%;
+} 
+.spageBox .card-title{
+    font-size: 1.5rem;
+}
+.spageBox .card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 18px;
+    opacity: 1;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.3rem;
+}
 
+
+/* Third page */
 .tpageBox{
     display: flex;
     justify-content: space-around;
@@ -60,18 +86,4 @@ hr{
     /* align-items: center; */
     text-align: center;
     margin: 10%;
-}
-.card{
-width: 32%; 
-}
-
-.card1 p{
-    padding-right: 30%;
-}
-.card2 p{
-    padding-right: 30%;    
-}
-
-.card3 p{
-    padding-right: 30%;
 }
