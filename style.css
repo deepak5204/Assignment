@@ -49,3 +49,29 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Second page */
+
+.tpageBox{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5% 0 5%;
+} .thirdPage h1{
+    /* align-items: center; */
+    text-align: center;
+    margin: 10%;
+}
+.card{
+width: 32%; 
+}
+
+.card1 p{
+    padding-right: 30%;
+}
+.card2 p{
+    padding-right: 30%;    
+}
+
+.card3 p{
+    padding-right: 30%;
+}
